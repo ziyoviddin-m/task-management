@@ -1,4 +1,4 @@
 venv
 *.pyc
 __pycache__/
-
+To_Do_List/db.sqlite3
