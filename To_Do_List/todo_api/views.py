@@ -15,6 +15,7 @@ class TaskViewSet(viewsets.ModelViewSet):
     search_fields = ['title', 'description']
     ordering_fields = ['creation_date', 'title']
 
+
 # class TaskApiList(generics.ListCreateAPIView):
 #     queryset = Task.objects.all()
 #     serializer_class = TaskSerializer
