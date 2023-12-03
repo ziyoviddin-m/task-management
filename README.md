@@ -25,11 +25,11 @@
 
 3) .\venv\Scripts\activate
 
-4) cd stripe_api
+4) cd task-management
 
 5) pip install -r requirements.txt
 
-6) cd store
+6) cd To_Do_List
 
 7) python manage.py runserver
 
@@ -38,13 +38,3 @@
 логин: admin
 
 пароль: 1234
-
-Сделанные бонусные задачи:
-
-- Использование environment variables
-
--	Просмотр Django Моделей в Django Admin панели
-
-- Запуск приложения на удаленном сервере, доступном для тестирования
-
-- Модель Order, в которой можно объединить несколько Item и сделать платёж в Stripe на содержимое Order c общей стоимостью всех Items
